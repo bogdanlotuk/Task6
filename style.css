@@ -1,0 +1,194 @@
+* {	
+	font-family: Times, serif;
+}
+
+body {
+	max-width: 1140px;	
+}
+
+/*Navigation*/
+
+#project {
+	height: 76px;	
+	color: #777777;
+}
+
+#project h2 {
+	padding-top: 44px;
+	font-size: 17pt;
+	font-weight: 500;
+	font-family: Arial, sans-serif;
+}
+
+.header .row * {
+	min-height: 52px;	
+
+}
+.header .row div {	
+	background-color: #f3f3f3;
+	border-top: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	border-left: 1px solid white;
+
+}
+
+.header .row div:first-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-left: 1px solid #cccccc;
+}
+
+.header .row div:last-child {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.header .row div:hover {
+	background-color: #dddddd;
+	box-shadow: 0px 4px 5px grey inset;
+}
+
+.header .row a {
+	display: block;
+	text-decoration: none;
+	color: #777777;
+	font-size: 10pt;
+	font-weight: bold;
+	margin: 0px auto;
+	height: 34px;
+	width: 100%;
+	text-align: center;
+	padding-top: 18px	
+}
+
+/*Marketing stuff*/
+.marketing {
+	max-width: 1140px;
+	max-height: 200px;
+	text-align: center;
+	margin-top: 83px;
+	clear: both;
+}
+
+.marketing h1 {
+	font-size: 46pt;
+	font-weight: 400;
+	text-align: center;
+	padding-bottom: 30px;
+	clear: both;
+}
+
+.marketing p {
+	font-size: 15pt;
+	text-align: center;
+	clear: both;
+}
+
+.marketing form button {
+	height: 57px;
+	width: 213px;
+	background-color: #5cb85c;
+	border-radius: 6px;
+	color: white;
+	font-size: 15pt;
+	font-weight: 600;
+	margin-top: 23px;
+	clear: both;
+	margin-bottom: 50px;
+}
+
+/*Articles*/
+#articles {	
+	margin-top: 10px;
+}
+
+#articles div {
+	float: left;	
+}
+
+#articles h3 {
+	font-size: 22pt;
+	padding-bottom: 21px;
+}
+
+#articles p {
+	font-size: 10pt;
+}
+
+#articles button {
+	height: 34px;
+	width: 112px;
+	background-color: #337ab7;
+	color: white;
+	border-radius: 6px;
+	font-size: 10pt;
+	font-weight: 600;
+	margin-top:16px;
+}
+
+.article_left {
+	min-width: 300px;
+	display: inline-block;	
+	padding-top: 118px;
+	margin-right: 25px;
+}
+
+.article_left span {
+	color: #be4442;
+}
+
+.article_middle {
+	min-width: 300px;
+	display: inline-block;	
+	padding-top: 118px;
+	margin-right: 25px;
+}
+
+.article_right {
+	min-width: 300px;
+	display: inline-block;	
+	padding-top: 118px;
+}
+
+/*Footer*/
+footer {
+	display: block;
+	clear: both;
+	height: 110px;
+	border-top: 1px solid #eeeeee;
+	margin-top: 50px;
+	color: #777777;	
+}
+
+footer p {
+	font-size: 10pt;
+	padding-top: 45px;
+}
+
+/*Media queries*/
+@media (max-width: 768px) {
+	#project h2 {
+		font-weight: bold;
+		font-size: 26pt;
+		padding-top: 10px;
+	}
+
+	.header .row a {
+    	font-size: 16pt;
+	}
+	
+	.marketing form button {
+		font-size: 19pt;		
+	}
+	
+	#articles form button{
+		width: 100%;
+		max-width: 475px;
+		font-size: 10pt;
+	}
+	
+	.article_left, .article_middle, .article_right {
+		padding-top: 0px;
+	}	
+}
