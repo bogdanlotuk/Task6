@@ -1,9 +1,10 @@
 * {	
-	font-family: Times, serif;
+	font-family: Times, serif;	
 }
 
 body {
 	max-width: 1140px;	
+	margin: 0px auto;
 }
 
 /*Navigation*/
@@ -65,7 +66,7 @@ body {
 /*Marketing stuff*/
 .marketing {
 	max-width: 1140px;
-	max-height: 200px;
+	max-height: 400px;
 	text-align: center;
 	margin-top: 83px;
 	clear: both;
@@ -75,14 +76,12 @@ body {
 	font-size: 46pt;
 	font-weight: 400;
 	text-align: center;
-	padding-bottom: 30px;
-	clear: both;
+	padding-bottom: 30px;	
 }
 
 .marketing p {
 	font-size: 15pt;
-	text-align: center;
-	clear: both;
+	text-align: center;	
 }
 
 .marketing form button {
@@ -99,12 +98,8 @@ body {
 }
 
 /*Articles*/
-#articles {	
-	margin-top: 10px;
-}
-
-#articles div {
-	float: left;	
+#articles {		
+	max-height: 600px;
 }
 
 #articles h3 {
@@ -182,13 +177,20 @@ footer p {
 		font-size: 19pt;		
 	}
 	
+	.article_left .article_middle .article_right {
+		margin-right: 0px;
+		width: 100%;
+	}
+
 	#articles form button{
 		width: 100%;
-		max-width: 475px;
+		max-width: 450px;
 		font-size: 10pt;
 	}
 	
 	.article_left, .article_middle, .article_right {
 		padding-top: 0px;
+		border: 1px solid green;
+		margin-right: 0px;		
 	}	
 }
